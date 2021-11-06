@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T11:31:30.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="iKFE5kXCwK2TBbM9FKgL" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T12:39:28.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YQqL3kLad1DrKi6WTV9g" version="15.7.0" type="github">
   <diagram id="BDtDjoyZ79EIM3A_CNyL" name="Page-1">
     <mxGraphModel dx="1346" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -498,7 +498,7 @@
           <mxGeometry x="1482" y="363.5" width="93" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-116" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1175" y="520" width="611" height="197" as="geometry" />
+          <mxGeometry x="1175" y="515" width="611" height="202" as="geometry" />
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-118" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1487" y="546" width="286" height="156" as="geometry" />
@@ -519,7 +519,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-122" value="Class常量池保存到运行时常量池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1632" y="478" width="141" height="30" as="geometry" />
+          <mxGeometry x="1526" y="466.5" width="179" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-123" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1569" y="597" width="63" height="99" as="geometry" />
@@ -562,6 +562,9 @@
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-136" value="封装类常量池" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1388" y="644" width="89" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-137" value="JVM运行时数据区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1173" y="508" width="109" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
