@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T04:41:07.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eAWh2cnyb-hd_Ck-r5a-" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T05:45:17.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="2Hkj9g4q9u1r4AFn-CN1" version="15.7.0" type="github">
   <diagram id="BDtDjoyZ79EIM3A_CNyL" name="Page-1">
     <mxGraphModel dx="1346" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
             <mxPoint x="820" y="149" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-8" value="ClassLoader类加载系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-8" value="ClassLoader类加载系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="481" y="152" width="156" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -236,13 +236,13 @@
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="242" y="370" width="733" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-32" value="JVM运行时数据区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-32" value="JVM运行时数据区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="244" y="370" width="117" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="254" y="407" width="251" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-36" value="虚拟机栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-36" value="虚拟机栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="254" y="406" width="59" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
@@ -307,6 +307,18 @@
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-59" value="方法出口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="420" y="537" width="74" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-60" value="&lt;b&gt;本地方法栈&lt;br&gt;&lt;/b&gt;&lt;br&gt;native方法，调用c++实现的本地方法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="407" width="205" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-61" value="&lt;b&gt;程序计数器&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;jetbrains mono&amp;#34; , &amp;#34;hyzhengyuan&amp;#34; , &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;consolas&amp;#34; ; font-size: 12px ; word-spacing: 0.6px&quot;&gt;程序计数器是程序控制流的指示器，分支、循环、跳转、异常处理、线程恢复等基础功能都需要依赖这个计数器来完成&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="475" width="205" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="721" y="406" width="251" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-65" value="堆内存空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="723" y="407" width="68" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
