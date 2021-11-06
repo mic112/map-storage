@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T06:35:13.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ZiWnlk76JIGLQ96Plysy" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T11:28:09.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4Oa5FPo5MP_v_VQt9w2c" version="15.7.0" type="github">
   <diagram id="BDtDjoyZ79EIM3A_CNyL" name="Page-1">
-    <mxGraphModel dx="1346" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1346" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,6 +457,69 @@
         </mxCell>
         <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-103" value="封装类常量池" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="857" y="507" width="89" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="309" width="183" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-105" value=".class文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1229" y="272" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-106" value="版本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1243" y="325" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-107" value="方法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1327" y="325" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-108" value="字段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1243" y="359" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-109" value="接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1327" y="359" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-110" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1243" y="393" width="157" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-111" value="常量池表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="393" width="59" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-112" value="符号引用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1263" y="420" width="62" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-113" value="字面量" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="420" width="62" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-114" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ml-0gKPdzr1yu2Ejb5rt-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1476" y="407" as="sourcePoint" />
+            <mxPoint x="1481" y="383" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-115" value="类加载" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1482" y="363.5" width="93" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-116" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="520" width="554" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-118" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="546" width="318" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-119" value="元空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1449" y="520" width="53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-120" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1622" y="559" width="143" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-121" value="运行时常量池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="593" width="97" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-117" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Ml-0gKPdzr1yu2Ejb5rt-115" target="Ml-0gKPdzr1yu2Ejb5rt-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1637" y="448" as="sourcePoint" />
+            <mxPoint x="1687" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ml-0gKPdzr1yu2Ejb5rt-122" value="Class常量池保存到运行时常量池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1632" y="478" width="141" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
